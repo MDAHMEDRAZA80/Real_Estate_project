@@ -43,7 +43,7 @@ function LocationInfo() {
     const sendData = () => {
       axios({
         method: "post",
-        url: "https://realestate-backend-ulho.onrender.com/addproperty",
+        url: "https://real-esate-practice.onrender.com/addproperty",
         headers: {
           Accept: "application/json",
           authorization: token,
