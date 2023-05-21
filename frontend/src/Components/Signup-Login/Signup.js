@@ -34,7 +34,7 @@ export default function Signup() {
     const userSignup = () => {
       axios({
         method: "post",
-        url: "https://realestate-backend-ulho.onrender.com/signup",
+        url: "https://real-esate-practice.onrender.com/signup",
         data: signupDetails,
       })
         .then((response) => {
